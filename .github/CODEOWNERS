@@ -1,0 +1,37 @@
+# CODEOWNERS file for analytics-utility-995
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-api @Armor-test/dept-billing @Armor-test/squad-search
+
+# Directory ownership
+/hooks/ @Armor-test/team-governance @Armor-test/squad-ux @Armor-test/squad-cache
+/auth/ @Armor-test/team-governance @Armor-test/team-frontend
+/internal/ @Armor-test/dept-release @Armor-test/grp-reporting
+/scripts/ @Armor-test/dept-ui @Armor-test/unit-design @Armor-test/squad-cache
+/test/ @Armor-test/squad-apps @Armor-test/grp-search
+/plugins/ @Armor-test/squad-payments @Armor-test/dept-security @Armor-test/squad-reporting
+/extensions/ @Armor-test/squad-apps @Armor-test/squad-research @Armor-test/team-security
+/public/ @Armor-test/squad-ux @Armor-test/squad-cache @Armor-test/grp-integration
+/security/ @Armor-test/squad-mobile @Armor-test/dept-api @Armor-test/grp-payments
+/deploy/ @Armor-test/squad-frontend @Armor-test/team-research
+/migrations/ @Armor-test/squad-tooling @Armor-test/squad-mobile
+
+# File type ownership
+*.config @Armor-test/unit-cloud @Armor-test/squad-apps @Armor-test/squad-mobile
+*.h @Armor-test/dept-logging @Armor-test/squad-qa @Armor-test/grp-reporting
+*.cpp @Armor-test/unit-cloud @Armor-test/squad-search @Armor-test/squad-reporting
+*.java @Armor-test/team-frontend @Armor-test/grp-api
+*.md @Armor-test/squad-mobile @Armor-test/grp-payments @Armor-test/grp-reporting
+*.yaml @Armor-test/team-governance @Armor-test/dept-ui @Armor-test/team-security
+*.rb @Armor-test/dept-data @Armor-test/squad-performance
+*.toml @Armor-test/unit-devops @Armor-test/dept-billing
+*.graphql @Armor-test/unit-cloud @Armor-test/squad-apps
+*.scala @Armor-test/squad-product @Armor-test/squad-mobile
+*.json @Armor-test/grp-api @Armor-test/team-frontend @Armor-test/squad-mobile
+*.py @Armor-test/team-notifications @Armor-test/dept-api @Armor-test/grp-payments
+*.properties @Armor-test/team-core @Armor-test/grp-api
+*.html @Armor-test/squad-cloud @Armor-test/dept-test
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
